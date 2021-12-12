@@ -1,0 +1,17 @@
+
+<header class="sticky bg-white top-0 left-0 w-full">
+  {%
+    Container 'flex justify-center items-center sm:justify-start mt-1'
+  %}
+    <img alt='' class="max-w-xs sm:max-w-sm" src="/dark_logo_transparent_background.png" />
+    <nav class='ml-auto '>
+      <ul>
+      {% if lang == 'en-gb' %}
+        <li><a href='/'>Slovensko</a></li>
+      {% else %}
+        <li><a href='/book-tesla-taxi'>English</a></li>
+      {% endif %}
+      </ul>    
+    </nav>
+  {% endContainer %}
+</header>

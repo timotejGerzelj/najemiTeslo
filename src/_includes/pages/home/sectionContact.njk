@@ -1,0 +1,54 @@
+<section> {% Container %}
+
+    <h2 class='font-bold text-3xl sm:text-4xl mb-3.5 sm:mb-8 text-left sm:text-center'>{{ i18n[lang].sectionContact.h2 }}</h2>
+    <div class='flex flex-col sm:flex-row sm:space-x-20'>
+    <div class='sm:w-1/2'>
+        <img alt="" loading='lazy' class='w-full sm:h-full sm:object-contain' src='/imageTesla.jpg' />
+    </div>
+        <form class='mt-8 sm:mt-0 space-y-6 flex flex-col sm:w-1/2' id='contactForm'>
+            <label for='duration'>{{ i18n[lang].sectionContact.field_duration_label }}</label>
+            <div class='select-material_wrapper'>
+             <select class='select-material'  name='areaTransportation' id='areaTransportation'>
+              <option value='internal' selected="selected">{{ i18n[lang].sectionContact.field_item_internal }}</option>
+              <option value='airport'>{{ i18n[lang].sectionContact.field_item_airport }}</option>
+              <option value='international'>{{ i18n[lang].sectionContact.field_item_international }}</option>
+             </select> 
+            </div>
+            <div class='select-material_wrapper'>
+                <select class='select-material pointer-events-none' id='currentOptions' name='duration' disabled>
+                </select> 
+            </div>
+            <label class='input-material' for='fname'>
+                <input placeholder=' '  type='text' id='fname' name='fname'
+                    pattern=".{3,50}"
+                    minLength="3"
+                    maxLength="50"
+                    size="50" required/>
+                <span class='input-material_pseudo-label'>{{ i18n[lang].sectionContact.field_name_label }}</span>
+            </label>
+            <label for='email' class='input-material'>
+                <input placeholder=' ' type='email' id='email' name='email' pattern='.{5,45}' 
+                maxLength="45"
+                minLength="5"
+                size="45"
+                pattern="[^@\s]+@[^@\s]+"  required/>
+                <span class='input-material_pseudo-label'>{{ i18n[lang].sectionContact.field_email_label }}</span>
+            </label>
+            <label for='requirements' class='input-material'>
+                <textarea placeholder=' ' class='block w-full' id='requirements' name='requirements'
+                minLength="5"
+                maxLength="250" 
+                required></textarea>
+                <span class='input-material_pseudo-label'>{{ i18n[lang].sectionContact.field_requests_label }}</span>
+            </label>
+            <label class='cursor-pointer'>
+                    <input id='pogoji' type='checkbox' required />
+                <span for='pogoji'> {{ i18n[lang].sectionContact.field_clause_label | safe }}  
+                </span>
+            </label>
+            <button id='potrdi' class='click-btn bg-blue-400 hover:bg-blue-300 focus:bg-blue-400 text-white font-bold p-3 rounded-lg' value='false' type='submit' disabled>
+            {{ i18n[lang].sectionContact.form_submit_button_label }}</button>
+        </form>
+    </div>
+
+{% endContainer %}</section>

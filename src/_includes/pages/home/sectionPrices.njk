@@ -1,0 +1,279 @@
+{% set mainPricesItems = [
+  {
+    duration:  i18n[lang].sectionPrices.travelListAirportBrnik,
+    price: '45€'
+  },
+  {
+    duration:  i18n[lang].sectionPrices.travelListAirportZagreb,
+    price: '180€'
+  },
+  {
+    duration:  i18n[lang].sectionPrices.travelListAirportTrst,
+    price: '150€'
+  },
+  {
+    duration:  i18n[lang].sectionPrices.travelListAirportBenetke,
+    price: '300€'
+  },
+   {
+    duration:   i18n[lang].sectionPrices.travelListAirportDunaj,
+    price: '450€'
+  },
+   {
+    duration:  i18n[lang].sectionPrices.travelListAirportMunchen,
+    price: '500€'
+  },
+   {
+    duration: i18n[lang].sectionPrices.travelListAirportCelovec ,
+    price: '150€'
+  },
+   {
+    duration:  i18n[lang].sectionPrices.travelListAirportBudapest,
+    price: '575€'
+  },
+   {
+    duration:  i18n[lang].sectionPrices.travelListAirportMilano,
+    price: '650€'
+  },
+   {
+    duration:  i18n[lang].sectionPrices.travelListAirportRijeka,
+    price: '190€'
+  }
+
+] %}
+
+{% set internationalPriceList = [
+  {
+    duration: i18n[lang].sectionPrices.travelListInternationalZagreb,
+    price: '175€'
+  },
+  {
+    duration: i18n[lang].sectionPrices.travelListInternationalTrst,
+    price: '130€'
+  },
+  {
+    duration: i18n[lang].sectionPrices.travelListInternationalVenice,
+    price: '300€'
+  },
+  {
+    duration: i18n[lang].sectionPrices.travelListInternationalViena,
+    price: '450€'
+  },
+  {
+    duration: i18n[lang].sectionPrices.travelListInternationalMunchen,
+    price: '475€'
+  },
+  {
+    duration: i18n[lang].sectionPrices.travelListInternationalCelovec,
+    price: '120€'
+  },
+  {
+    duration: i18n[lang].sectionPrices.travelListInternationalBeljak,
+    price: '140€'
+  },
+    {
+    duration: i18n[lang].sectionPrices.travelListInternationalBudapest,
+    price: '550€'
+  },
+    {
+    duration: i18n[lang].sectionPrices.travelListInternationalMilano,
+    price: '600€'
+  },
+    {
+    duration: i18n[lang].sectionPrices.travelListInternationalDubrovnik,
+    price: '700€'
+  },
+  {
+    duration: i18n[lang].sectionPrices.travelListInternationalSarajevo,
+    price: '600€'
+  }
+  ,
+  {
+    duration: i18n[lang].sectionPrices.travelListInternationalBeograd,
+    price: '550€'
+  }
+  ,
+  {
+    duration: i18n[lang].sectionPrices.travelListInternationalSplit,
+    price: '500€'
+  }
+  ,
+  {
+    duration: i18n[lang].sectionPrices.travelListInternationalRijeka,
+    price: '160€'
+  }
+  ,
+  {
+    duration: i18n[lang].sectionPrices.travelListInternationalPula,
+    price: '250€'
+  }
+  ,
+  {
+    duration: i18n[lang].sectionPrices.travelListInternationalGraz,
+    price: '250€'
+  }
+  ,
+  {
+    duration: i18n[lang].sectionPrices.travelListInternationalSalzburg,
+    price: '350€'
+  }
+
+
+] %}
+
+{% set internalPriceList = [
+    {
+    duration: i18n[lang].sectionPrices.travelListInternalMaribor,
+    price: '150€'
+  }
+  ,
+  {
+    duration: i18n[lang].sectionPrices.travelListInternalCelje,
+    price: '90€'
+  }
+  ,
+  {
+    duration: i18n[lang].sectionPrices.travelListInternalNovoMesto,
+    price: '80€'
+  }
+  ,
+  {
+    duration: i18n[lang].sectionPrices.travelListInternalPostojna,
+    price: '80€'
+  }
+  ,
+  {
+    duration: i18n[lang].sectionPrices.travelListInternalPortoroz,
+    price: '130€'
+  }
+  ,
+  {
+    duration: i18n[lang].sectionPrices.travelListInternalKobarid,
+    price: '140€'
+  }
+  ,
+  {
+    duration: i18n[lang].sectionPrices.travelListInternalBled,
+    price: '80€'
+  }
+  ,
+  {
+    duration: i18n[lang].sectionPrices.travelListInternalKranj,
+    price: '50€'
+  }
+  ,
+  {
+    duration: i18n[lang].sectionPrices.travelListInternalPtuj,
+    price: '150€'
+  }
+  ,
+  {
+    duration: i18n[lang].sectionPrices.travelListInternalVelenje,
+    price: '90€'
+  }
+  ,
+  {
+    duration: i18n[lang].sectionPrices.travelListInternalIvancnaGorica,
+    price: '40€'
+  }
+  ,
+  {
+    duration: i18n[lang].sectionPrices.travelListInternalKoper,
+    price: '110€'
+  }
+  ,
+  {
+    duration: i18n[lang].sectionPrices.travelListInternalLipica,
+    price: '110€'
+  }
+  ,
+  {
+    duration: i18n[lang].sectionPrices.travelListInternalKranjskaGora,
+    price: '110€'
+  }
+  ,
+  {
+    duration: i18n[lang].sectionPrices.travelListInternalBohinj,
+    price: '100€'
+  }
+  ,
+  {
+    duration: i18n[lang].sectionPrices.travelListInternalGoriskoBrdo,
+    price: '140€'
+  }
+
+] %}
+
+<section class="text-left sm:text-center">
+  {% Container 'flex flex-col justify-center' %}
+  
+  <h2 class='font-bold text-3xl sm:text-4xl mb-3.5'>Tesla 3</h2>
+    <p>{{ i18n[lang].sectionPrices.p }}</p>
+
+    <h3 class="font-bold text-xl sm:text-2xl mt-5 sm:mt-10 text-left sm:text-center mb-3">{{ i18n[lang].sectionPrices.hAirport }}</h3>
+    <table class='md:w-3/4 lg:w-1/2 md:mx-auto'>
+        <thead class='sr-only'>
+            <tr>
+                <th class='text-left'>Trajanje</th>
+                <th class='text-left'>Cena</th>
+            </tr>
+        </thead>
+        <tbody class='block space-y-2'>
+            
+                {%- for data in mainPricesItems -%}
+                    <tr class='flex justify-between'>
+                        <td class='text-left'>{{ data.duration }}</td>
+                        <td class='pl-3 lg:pl-0 text-right'>{{data.price}}</td>
+                    </tr>
+                {%- endfor -%}
+            
+        </tbody>
+    </table>
+    <h3 class="font-bold text-xl sm:text-2xl mt-5 sm:mt-10 text-left sm:text-center mb-3">{{ i18n[lang].sectionPrices.hInternational }}</h3> 
+    <table class='md:w-3/4 lg:w-1/2 md:mx-auto'>
+      <thead class='sr-only'>
+            <tr>
+                <th class='text-left'>Trajanje</th>
+                <th class='text-left'>Cena</th>
+            </tr>
+        </thead>
+      <tbody class='block space-y-2'>
+            
+                {%- for data in internationalPriceList -%}
+                    <tr class='flex justify-between'>
+                        <td class='text-left'>{{ data.duration }}</td>
+                        <td class='pl-3 lg:pl-0 text-right'>{{data.price}}</td>
+                    </tr>
+                {%- endfor -%}
+            
+        </tbody>
+
+    </table>  
+
+    <h3 class="font-bold text-xl sm:text-2xl mt-5 sm:mt-10 text-left sm:text-center mb-3">{{ i18n[lang].sectionPrices.hInternal }}</h3> 
+    <table class='md:w-3/4 lg:w-1/2 md:mx-auto mb-10'>
+      <thead class='sr-only'>
+            <tr>
+                <th class='text-left'>Trajanje</th>
+                <th class='text-left'>Cena</th>
+            </tr>
+        </thead>
+      <tbody class='block space-y-2'>
+            
+                {%- for data in internalPriceList -%}
+                    <tr class='flex justify-between'>
+                        <td class='text-left'>{{ data.duration }}</td>
+                        <td class='pl-3 lg:pl-0 text-right'>{{data.price}}</td>
+                    </tr>
+                {%- endfor -%}
+            
+        </tbody>
+
+    </table>
+    <div class='space-y-6'>
+      <p class='align-left '> {{ i18n[lang].sectionPrices.paragraphWaitingPrice }} </p>
+      <p class='align-left'> {{ i18n[lang].sectionPrices.pDailyRental }} </p>
+      <p class='align-left'> {{ i18n[lang].sectionPrices.pOtherDestination }} </p>
+    </div>
+    {% endContainer %}
+</section>

@@ -1,0 +1,138 @@
+{
+   "en-gb":{
+      "sectionContact":{
+         "h2":"Contact us",
+         "field_duration_label":"Choose your pick-up points",
+         "field_item_internal": "Domestic rides",
+         "field_item_airport": "Airport rides",
+         "field_item_international": "International rides",
+         "field_name_label":"Your name",
+         "field_email_label":"Your email",
+         "field_requests_label":"Any additional requests?",
+         "field_clause_label":"I agree with the terms and conditions given to me <a href='/pogoji'>here</a>",
+         "form_submit_button_label":"Send"
+      },
+      "sectionPrices":{
+         "h2":"Tesla 3",
+         "p":"We offer taxi rides in our brand new Tesla Model 3 Performance with full autopilot",
+         "hAirport": "Airport rides:",
+         "travelListAirportBrnik": "Airport Brnik - Ljubljana or vice versa",
+         "travelListAirportZagreb": "Airport Zagreb - Ljubljana or vice versa",
+         "travelListAirportTrst": "Airport Trst - Ljubljana or vice versa",
+         "travelListAirportBenetke": "Airport Venice - Ljubljana or vice versa",
+         "travelListAirportDunaj": "Airport Viena - Ljubljana or vice versa",
+         "travelListAirportMunchen": "Airport Munchen - Ljubljana or vice versa",
+         "travelListAirportCelovec": "Airport Celovec - Ljubljana or vice versa",
+         "travelListAirportBudapest": "Airport Budapest - Ljubljana or vice versa",
+         "travelListAirportMilano": "Airport Milan - Ljubljana or vice versa",
+         "travelListAirportRijeka": "Airport Rijeka - Ljubljana or vice versa",
+
+         "hInternational": "International rides:"
+         ,"travelListInternationalZagreb":"Ljubljana - Zagreb "
+         ,"travelListInternationalTrst":"Ljubljana - Trst"
+         ,"travelListInternationalVenice":"Ljubljana - Venice "
+         ,"travelListInternationalViena":"Ljubljana - Viena"
+         ,"travelListInternationalMunchen":"Ljubljana - Munchen"
+         ,"travelListInternationalCelovec":"Ljubljana - Celovec"
+         ,"travelListInternationalBeljak":"Ljubljana - Beljak"
+         ,"travelListInternationalBudapest":"Ljubljana - Budapest"
+         ,"travelListInternationalMilano":"Ljubljana - Milan"
+         ,"travelListInternationalDubrovnik":"Ljubljana - Dubrovnik"
+         ,"travelListInternationalSarajevo":"Ljubljana - Sarajevo"
+         ,"travelListInternationalBeograd": "Ljubljana - Beograd"
+         ,"travelListInternationalSplit": "Ljubljana - Split"
+         ,"travelListInternationalRijeka": "Ljubljana - Rijeka "
+         ,"travelListInternationalPula": "Ljubljana - Pula"
+         ,"travelListInternationalGraz": "Ljubljana - Graz"
+         ,"travelListInternationalSalzburg": "Ljubljana - Salzburg",
+         "hInternal": "Domestic rides:"
+         ,"travelListInternalMaribor": "Ljubljana - Maribor"         
+         ,"travelListInternalCelje": "Ljubljana - Celje"
+         ,"travelListInternalNovoMesto": "Ljubljana - Novo mesto"
+         ,"travelListInternalPostojna": "Ljubljana - Postojna"
+         ,"travelListInternalPortoroz": "Ljubljana - Portorož"
+         ,"travelListInternalKobarid": "Ljubljana - Kobarid"
+         ,"travelListInternalBled": "Ljubljana - Bled"
+         ,"travelListInternalKranj": "Ljubljana - Kranj"
+         ,"travelListInternalPtuj": "Ljubljana - Ptuj"
+         ,"travelListInternalVelenje": "Ljubljana - Velenje"
+         ,"travelListInternalIvancnaGorica": "Ljubljana - Ivančna Gorica"
+         ,"travelListInternalKoper": "Ljubljana - Koper"
+         ,"travelListInternalLipica": "Ljubljana - Lipica"
+         ,"travelListInternalKranjskaGora": "Ljubljana - Kranjska Gora"
+         ,"travelListInternalBohinj": "Ljubljana - Bohinj"
+         ,"travelListInternalGoriskoBrdo": "Ljubljana - Goriška Brda"
+         ,"paragraphWaitingPrice": "We charge waiting hours 20€/h. In case, the client is late for more than 4 hours, the waiting hour is 15€/h."
+         ,"pDailyRental": "We offer the rent of a vehicle with a chauffeur for a whole day or half a day with the costs being 300€/day for 300km or 200€/6 hours for 200km."
+         ,"pOtherDestination": "If you have the intention to travel with multiple stops send us your inquiries on our email or call us on +386 31 815 994. All prices include VAT."
+      }
+   },
+   "sl-si":{
+      "sectionContact":{
+         "h2":"Kontaktirajte nas",
+         "field_duration_label":"Izberite vaše destinacije",
+         "field_item_internal": "Notranji prevoz",
+         "field_item_airport": "Letalski prevoz",
+         "field_item_international": "Mednarodni prevoz",
+         "field_name_label":"Vaše ime",
+         "field_email_label":"Vaš email",
+         "field_requests_label":"Dodatne zahteve?",
+         "field_clause_label":"Strinjam se z vsemi priloženimi pogoji <a href='/pogoji'>tukaj</a>",
+         "form_submit_button_label":"Pošlji"
+      },
+      "sectionPrices":{
+         "h2":"Tesla 3",
+         "p":"Ponujamo vam taxi prevoz v našem novem Tesla Model 3 Perfomance z polnim avtopilotom.",
+         "hAirport": "Letalski prevozi:",
+         "travelListAirportBrnik": "Letališče Brnik - Ljubljana oz. obratno",
+         "travelListAirportZagreb": "Letališče Zagreb - Ljubljana oz. obratno",
+         "travelListAirportTrst": "Letališče Trst - Ljubljana oz. obratno",
+         "travelListAirportBenetke": "Letališče Benetke - Ljubljana oz. obratno",
+         "travelListAirportDunaj": "Letališče Dunaj - Ljubljana oz. obratno",
+         "travelListAirportMunchen": "Letališče Munchen - Ljubljana oz. obratno",
+         "travelListAirportCelovec": "Letališče Celovec - Ljubljana oz. obratno",
+         "travelListAirportBudapest": "Letališče Budimpešta - Ljubljana oz. obratno",
+         "travelListAirportMilano": "Letališče Milano - Ljubljana oz. obratno",
+         "travelListAirportRijeka": "Letališče Rijeka - Ljubljana oz. obratno",
+
+         "hInternational": "Mednarodni prevozi:"
+         ,"travelListInternationalZagreb":"Ljubljana - Zagreb "
+         ,"travelListInternationalTrst":"Ljubljana - Trst"
+         ,"travelListInternationalVenice":"Ljubljana - Benetke "
+         ,"travelListInternationalViena":"Ljubljana - Dunaj"
+         ,"travelListInternationalMunchen":"Ljubljana - Munchen"
+         ,"travelListInternationalCelovec":"Ljubljana - Celovec"
+         ,"travelListInternationalBeljak":"Ljubljana - Beljak"
+         ,"travelListInternationalBudapest":"Ljubljana - Budimpešta"
+         ,"travelListInternationalMilano":"Ljubljana - Milano"
+         ,"travelListInternationalDubrovnik":"Ljubljana - Dubrovnik"
+         ,"travelListInternationalSarajevo":"Ljubljana - Sarajevo"
+         ,"travelListInternationalBeograd": "Ljubljana - Beograd "
+         ,"travelListInternationalSplit": "Ljubljana - Split"
+         ,"travelListInternationalRijeka": "Ljubljana - Rijeka "
+         ,"travelListInternationalPula": "Ljubljana - Pula"
+         ,"travelListInternationalGraz": "Ljubljana - Graz"
+         ,"travelListInternationalSalzburg": "Ljubljana - Salzburg ",
+         "hInternal": "Notranji prevoz:"
+         ,"travelListInternalMaribor": "Ljubljana - Maribor"         
+         ,"travelListInternalCelje": "Ljubljana - Celje"
+         ,"travelListInternalNovoMesto": "Ljubljana - Novo mesto"
+         ,"travelListInternalPostojna": "Ljubljana - Postojna"
+         ,"travelListInternalPortoroz": "Ljubljana - Portorož"
+         ,"travelListInternalKobarid": "Ljubljana - Kobarid"
+         ,"travelListInternalBled": "Ljubljana - Bled"
+         ,"travelListInternalKranj": "Ljubljana - Kranj"
+         ,"travelListInternalPtuj": "Ljubljana - Ptuj"
+         ,"travelListInternalVelenje": "Ljubljana - Velenje"
+         ,"travelListInternalIvancnaGorica": "Ljubljana - Ivančna Gorica"
+         ,"travelListInternalKoper": "Ljubljana - Koper"
+         ,"travelListInternalLipica": "Ljubljana - Lipica"
+         ,"travelListInternalKranjskaGora": "Ljubljana - Kranjska Gora"
+         ,"travelListInternalBohinj": "Ljubljana - Bohinj"
+         ,"travelListInternalGoriskoBrdo": "Ljubljana - Goriška Brda"
+         ,"paragraphWaitingPrice": "Čakalna ura je 20€/h. V primeru, da se stranko čaka več kot 4 ure, je čakalna ura 15€/h."
+         ,"pDailyRental": "Možen dnevni in poldnevni najem vozila s šoferjem in sicer 300€/dan do 300km oziroma 200€/6 ur do 200km."
+         ,"pOtherDestination": "Za cene ostalih destinacij oziroma, če imate namen potovati v več mest hkrati, nam pošljite povpraševanje na naš e-mail ali nas pokličite na +386 31 815 994. Vse cene vsebujejo DDV."
+      }
+   }
+}

@@ -1,0 +1,15 @@
+/*
+  font-face rules (custom fonts declarations)
+*/
+@import './typographies/index.css';
+
+/* Utilities (Tailwind + other utilities classes)*/
+/*
+  Tailwind classes
+*/
+@import './tailwind/index.css';
+
+/*
+  Bases styles (Normalize + basic styles)
+*/
+@import './bases/index.css';

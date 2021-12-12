@@ -1,0 +1,89 @@
+/*
+  Base styles
+*/
+
+*,
+*::before,
+*::after {
+  border-width: 0;
+  border-style: solid;
+  box-sizing: border-box;
+}
+
+html {
+  @apply text-base subpixel-antialiased overflow-x-hidden;
+  scroll-behavior: smooth;
+  text-size-adjust: 100%;
+  text-rendering: optimizelegibility;
+}
+
+body {
+  @apply flex flex-col min-h-screen font-body;
+  font-size: 1rem;
+}
+
+
+button {
+  font-weight: var(--lebo-ui-fontWeightSetting);
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+  overflow: visible;
+  text-transform: none;
+  padding: 0;
+  background-color: transparent;
+  color: inherit;
+}
+
+button[disabled] {
+  @apply opacity-25 pointer-events-none;
+}
+
+
+
+button::-moz-focus-inner,
+[type='button']::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+a:link,
+a:visited,
+a:active {
+  @apply text-blue-400 hover:text-blue-300 focus:text-blue-500 cursor-pointer underline hover:no-underline;
+}
+
+
+
+body,
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+button {
+  padding: 0;
+}
+
+button::-moz-focus-inner {
+  border: 0 !important;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: var(--lebo-ui-fontWeightSetting);
+  @apply font-heading;
+}
+
+img,
+svg {
+  display: block;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
