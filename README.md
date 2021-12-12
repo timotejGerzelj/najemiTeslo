@@ -1,3 +1,9 @@
+About the project:
+
+This was my first ever project for actual client!
+
+I decided on using a simpler static generator called eleventy since it fit the projects demands for a lightweight and simple website, with a functional contact form! All the design and pictures were provided by the client.
+
 # LeBo Cabinet : a Prismic + 11ty landing page
 ## Pre-requisites
 * `node` version >= 12
